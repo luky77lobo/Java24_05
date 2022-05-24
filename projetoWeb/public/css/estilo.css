@@ -1,0 +1,23 @@
+body {
+    margin: 0 0 0 0;
+}
+
+.img-fluid logo {
+    width: 100%;
+    /*100% da largura da tela*/
+    height: 100%;
+    /* 100% da altura da tela */
+    background: '<?=URL ?>/public/img/noturna.jpg';
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+}
+
+.h1 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 30px;
+  
+    opacity: 0.9;
+    background-color: blue;
+}
